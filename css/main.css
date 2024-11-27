@@ -1,0 +1,84 @@
+/* main.css */
+
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f3f3f3;
+    background-image: url(../images/pexels-karolina-grabowska-4466468.jpg);
+    background-size: cover;              
+    background-position: center center;  
+    background-repeat: no-repeat;        
+    height: 100vh;               
+    justify-content: center;    
+    align-items: center; 
+}  
+
+header {
+    background-color: #e0cfcf;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 40px 0;
+    opacity: 0.6;
+}
+
+header {
+    font-size: 3rem;
+    margin: 0;
+    font-family: 'Lobster', cursive;
+    font-weight: 700; 
+}
+
+header h2 {
+    font-size: 1.5rem;
+    margin: 10px 0;
+}
+
+/* Main Content */
+main {
+    text-align: center;
+    padding: 20px;
+    
+}
+
+/* Footer Styling */
+footer {
+   
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 8px;
+    margin-top: 160px;
+   height: 100px;
+}
+
+footer a {
+    color: #1DA1F2;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+footer ul li {
+    display: inline;
+}
+
+footer ul li a {
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+    transition: color 0.3s ease;
+}
+
+footer ul li a:hover {
+    color: #d84e67; 
+}
